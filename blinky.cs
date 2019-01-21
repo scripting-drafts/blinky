@@ -13,7 +13,7 @@ namespace blinky
 
 		for (var i = 0; i<100; i++) {
 			connection.Toggle(led1);
-			System.Threading.Thread.Sleep(250);
+			System.Threading.Thread.Sleep(500);
 		}
 		connection.Close();
 	}
